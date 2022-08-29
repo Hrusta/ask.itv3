@@ -1,0 +1,115 @@
+.top {
+  padding-top: 60px;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.coverChild {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.underTitle {
+  align-items: center;
+  align-self: center;
+}
+
+.input {
+  width: 500px;
+}
+
+.coverDiv {
+  display: flex;
+  justify-content: right;
+  padding-top: 10px;
+}
+
+.coverForLinks {
+  display: flex;
+  justify-content: right;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.logInButton {
+  background: rgb(24, 188, 156);
+  border-color: rgb(24, 188, 156);
+
+  &:hover {
+    background: rgb(24, 188, 156);
+    border-color: rgb(24, 188, 156);
+  }
+}
+
+.backToHome {
+  padding-right: 10px;
+  text-decoration-line: none;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.inHere {
+  text-decoration-line: none;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.divAlignRight {
+  display: flex;
+  justify-content: right;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .coverForInput {
+    width: 221.52px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .coverForInput {
+    width: 250px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .coverForInput {
+    width: 400px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .coverForInput {
+    width: 500px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .coverForInput {
+    width: 500px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}

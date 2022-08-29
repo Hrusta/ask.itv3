@@ -1,0 +1,41 @@
+.topDiv {
+  padding-top: 150px;
+}
+
+.headingLogo {
+  font-size: 80px;
+  text-align: center;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divCover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: "center";
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.homeBtn {
+  min-width: 100px;
+  background: rgb(24, 188, 156);
+  border-color: rgb(24, 188, 156);
+  font-size: 20px;
+  &:hover {
+    background: rgb(24, 188, 156);
+    border-color: rgb(24, 188, 156);
+  }
+}
+.divider {
+  height: 20px;
+}

@@ -1,0 +1,185 @@
+.top {
+  padding-top: 60px;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.coverChild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.underTitle {
+  align-items: center;
+  align-self: center;
+}
+
+.divTop {
+  padding-top: 60px;
+}
+
+.headLogo {
+  font-size: 50px;
+  text-align: center;
+}
+
+.divCover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divCoverChild {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.registerHeading {
+  align-items: center;
+  align-self: center;
+}
+
+.inputTop {
+  width: 500px;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+.inputChild {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.divFlexRight {
+  display: flex;
+  justify-content: right;
+}
+
+.buttonDefault {
+  background: rgb(24, 188, 156);
+  border-color: rgb(24, 188, 156);
+
+  &:hover {
+    background: rgb(24, 188, 156);
+    border-color: rgb(24, 188, 156);
+  }
+}
+
+.coverForLinks {
+  display: flex;
+  justify-content: right;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.backToHome {
+  padding-right: 10px;
+  text-decoration-line: none;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.inHere {
+  text-decoration-line: none;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.form {
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #dob {
+    width: 200px;
+  }
+
+  .inputChild {
+    width: 221.52px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+
+#register {
+  margin-top: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .coverForInput {
+    width: 221.52px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .coverForInput {
+    width: 250px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .coverForInput {
+    width: 400px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .coverForInput {
+    width: 500px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .coverForInput {
+    width: 500px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+
+.input-group > .form-control {
+  width: 500px;
+}
+
+.input-group mb-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.coverForInput {
+  display: flex;
+  flex-direction: column;
+}
